@@ -19,6 +19,7 @@
     @csrf
     <input type="text" name="name" placeholder="Nome:" value="{{$user->name}}">
     <input type="email" name="email" placeholder="E-mail:"value="{{$user->email}}">
+    <input type="int" name="cpf" placeholder="CPF:999.999.999-99"value="{{$user->cpf}}">
     <input type="password" name="password" placeholder="Senha:">
     <button type="submit">
         Enviar

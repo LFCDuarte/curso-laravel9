@@ -19,6 +19,7 @@
     @foreach ($users as $user)
         <li>
             {{$user->name}} - 
+            {{$user->cpf}} -
             {{$user->email}} 
             |<a href="{{ route('users.edit', $user->id)}}">Editar</a>
             |<a href="{{ route('users.show', $user->id)}}">Detalhes</a>
